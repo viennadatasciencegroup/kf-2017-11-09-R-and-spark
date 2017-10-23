@@ -5,8 +5,7 @@ html_notebook: default
 html_document: default
 ---
 
-This lab is part of [R Summer School](http://rsummer.data-analysis.at) for the talk R for HPC and big data.
-It is partly based on http://spark.rstudio.com, https://blog.cloudera.com/blog/2016/09/introducing-sparklyr-an-r-interface-for-apache-spark and http://www.win-vector.com/blog/2017/07/working-with-r-and-big-data-use-replyr/.
+This talk is partly based on http://spark.rstudio.com, https://blog.cloudera.com/blog/2016/09/introducing-sparklyr-an-r-interface-for-apache-spark and http://www.win-vector.com/blog/2017/07/working-with-r-and-big-data-use-replyr/.
 
 You can run the lab on yor laptop. If you want to use a cloud environment https://community.cloud.databricks.com/ provides 0.6 CPU and 6gb RAM for free but requires some additional R packages if you want to use it from a local Rstudio. If you completely want to use the cloud https://databricks.com/blog/2017/05/25/using-sparklyr-databricks.html should be a good start.
 This guide covers everything which is necessary to run locally. Otherwise if you want to use a local RStudio installation the file `cloud.Rmd` partially covers how to set things up.
